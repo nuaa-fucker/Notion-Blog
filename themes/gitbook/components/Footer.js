@@ -1,3 +1,4 @@
+import { GongAnBeiAn } from '@/components/GongAnBeiAn'
 import { siteConfig } from '@/lib/config'
 import SocialButton from './SocialButton'
 /**
@@ -21,6 +22,7 @@ const Footer = ({ siteInfo }) => {
           <a href='https://beian.miit.gov.cn/' className='mr-2'>
             {siteConfig('BEI_AN')}
           </a>
+          <GongAnBeiAn />
           <br />
         </>
       )}
