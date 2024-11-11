@@ -108,13 +108,6 @@ export const Testimonials = () => {
                         <a
                           href={item.STARTER_TESTIMONIALS_ITEM_URL}
                           className='flex items-center gap-4'>
-                          <div className='h-[50px] w-[50px] overflow-hidden rounded-full'>
-                            <img
-                              src={item.STARTER_TESTIMONIALS_ITEM_AVATAR}
-                              alt='author'
-                              className='h-[50px] w-[50px] overflow-hidden rounded-full object-cover'
-                            />
-                          </div>
 
                           <div>
                             <h3 className='text-sm font-semibold text-dark dark:text-white'>
