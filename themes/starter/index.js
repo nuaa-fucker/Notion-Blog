@@ -90,6 +90,7 @@ const LayoutIndex = props => {
       {/* 产品特性 */}
       {siteConfig('STARTER_FEATURE_ENABLE', true, CONFIG) && <Features />}
       {/* 关于 */}
+      {siteConfig('STARTER_ABOUT_ENABLE', true, CONFIG) && <About />}
       {/* 评价展示 */}
       {siteConfig('STARTER_TESTIMONIALS_ENABLE', true, CONFIG) && (
         <Testimonials />
