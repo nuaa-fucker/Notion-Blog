@@ -362,8 +362,6 @@ const ExternalPlugin = props => {
           }}
         />
       )}
-      {/* chatway 系统 */}
-      <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=5L1vT4jh64ub"></script>
     </>
   )
 }
