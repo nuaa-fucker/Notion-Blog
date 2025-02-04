@@ -349,7 +349,7 @@ const ExternalPlugin = props => {
       )}
 
       {/* Chatbot 嵌入代码 */}
-      {ANALYTICS_GOOGLE_ID && (
+      {(
         <>
           <script
             async
